@@ -1,0 +1,7 @@
+gtdxyz-logo-boost:
+  admin:
+    settings:
+      logo_display_title: First Logo
+      logo_display_text: This is the default logo.
+      logo_switch_title: Hover Logo
+      logo_switch_text: This is the hover logo.

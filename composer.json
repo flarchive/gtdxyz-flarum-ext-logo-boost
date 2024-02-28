@@ -1,0 +1,71 @@
+{
+    "name": "gtdxyz/flarum-ext-logo-boost",
+    "description": "Flarum logo switch.",
+    "authors": [
+        {
+            "name": "Dev",
+            "email": "hello@dev.gtd.xyz"
+        }
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/daocatt/flarum-ext-logo-boost"
+    },
+    "require": {
+        "flarum/core": "^1.8.0",
+        "symfony/dom-crawler": "^5.0 || ^6.0.2",
+        "symfony/css-selector": "^5.0 || ^6.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gtdxyz\\LogoBoost\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "GTD Logo",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-pen-square",
+                "backgroundColor": "#ffea7b",
+                "color": "#de8e00"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "githubActions": true,
+                "backendTesting": true
+            }
+        }
+    },
+    "require-dev": {
+        "flarum/phpstan": "*",
+        "flarum/testing": "^1.0.0",
+        "flarum/bbcode": "*",
+        "flarum/markdown": "*"
+    },
+    "scripts": {
+        "analyse:phpstan": "phpstan analyse",
+        "clear-cache:phpstan": "phpstan clear-result-cache",
+        "test": [
+            "@test:unit",
+            "@test:integration"
+        ],
+        "test:unit": "phpunit -c tests/phpunit.unit.xml",
+        "test:integration": "phpunit -c tests/phpunit.integration.xml",
+        "test:setup": "@php tests/integration/setup.php"
+    },
+    "scripts-descriptions": {
+        "analyse:phpstan": "Run static analysis",
+        "test": "Runs all tests.",
+        "test:unit": "Runs all unit tests.",
+        "test:integration": "Runs all integration tests.",
+        "test:setup": "Sets up a database for use with integration tests. Execute this only once."
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gtdxyz\\LogoBoost\\Tests\\": "tests/"
+        }
+    }
+}
