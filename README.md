@@ -2,13 +2,13 @@
 
 > **Read-only archive of released versions of gtdxyz/flarum-ext-logo-boost.** Not for installation: use [Packagist](https://packagist.org/packages/gtdxyz/flarum-ext-logo-boost) or the [upstream repository](https://github.com/daocatt/flarum-ext-logo-boost).
 
-**0** versions archived · Latest: [`1.0`](https://github.com/flarchive/gtdxyz-flarum-ext-logo-boost/tree/archive/v1.0) · License: `MIT` · Flarum: `^1.8.0`
+**1** versions archived · Latest: [`1.0`](https://github.com/flarchive/gtdxyz-flarum-ext-logo-boost/tree/archive/v1.0) · License: `MIT` · Flarum: `^1.8.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `1.0` | 2024-02-28 | `^1.8.0` | [Browse](https://github.com/flarchive/gtdxyz-flarum-ext-logo-boost/tree/archive/v1.0) |
 
 Catalog entry: [packages/gtdxyz-flarum-ext-logo-boost.json](https://github.com/flarchive/archive-index/blob/main/packages/gtdxyz-flarum-ext-logo-boost.json)
 
